@@ -15,7 +15,7 @@ export const FancyIntroText = styled.div`
   color: #a6ddff;
 
   width: 100%;
-  flex-basis: 850px;
+  flex-basis: 830px;
 
   padding-left: 20px;
   padding-right: 15px;
@@ -24,8 +24,9 @@ export const FancyIntroText = styled.div`
 
   h1 {
     font-size: 6em;
-    font-weight: 500;
-    font-family: serif;
+    /* font-weight: 500; */
+    font-style: italic;
+    font-family: "Libre Baskerville", serif;
     margin-top: 20px;
   }
   p {
