@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 export const Maroon = styled.div`
   background-color: #4d143b;
-  margin-bottom: 10vh;
+  margin-bottom: 100px;
 
   display: flex;
   justify-content: center;

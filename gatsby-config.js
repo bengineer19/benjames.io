@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ben James`,
+    description: `Personal website and portfolio for Ben James.`,
+    author: `Ben James`,
+    url: "https://benjames.io",
+    image: "/images/profileImgCompressed.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,8 +38,6 @@ module.exports = {
         display: "swap",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
 }

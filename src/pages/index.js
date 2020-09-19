@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
+import SEO from "../components/seo"
 import Projects from "../components/Projects"
 import Hero from "../components/Hero/Hero"
 import SectionTitle from "../components/SectionTitle"
@@ -13,6 +14,7 @@ const Container = styled.div`
 export default () => {
   return (
     <>
+      <SEO />
       <Hero />
       <Container>
         <SectionTitle>Projects</SectionTitle>
