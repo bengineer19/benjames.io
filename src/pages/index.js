@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import SEO from "../components/seo"
+import SEO from "../components/Seo"
 import Projects from "../components/Projects"
 import Hero from "../components/Hero/Hero"
 import SectionTitle from "../components/SectionTitle"
