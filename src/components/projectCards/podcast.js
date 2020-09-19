@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
-export const PodcastCard = () => (
+export default () => (
   <ProjectCard
     href="https://distinguisheddevs.com/"
     cardColor="distinguishedDevsPrimary"

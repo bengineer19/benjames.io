@@ -11,14 +11,14 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
 // Background doesn't need to be darkened quite as much for orange card - override
 const CardFooterLightened = styled(CardFooter)`
   background-color: rgba(0, 0, 0, 0.04);
 `
 
-export const GestureCard = () => (
+export default () => (
   <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
     <ProjectCard cardColor="cardOrange">
       <CardTitle>Gesture Control</CardTitle>

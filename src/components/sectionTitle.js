@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
 const Header = styled.h2`
   font-family: "Montserrat", sans-serif;
@@ -9,11 +9,11 @@ const Header = styled.h2`
   margin: 0 5px 5px;
   z-index: 1000;
 
-  @media (max-width: ${(props) => props.theme.projectGridBreakpoint}) {
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
     font-size: 4.5em;
   }
-`;
+`
 
-export const SectionTitle = ({ children }) => {
-  return <Header>{children}</Header>;
-};
+export default ({ children }) => {
+  return <Header>{children}</Header>
+}

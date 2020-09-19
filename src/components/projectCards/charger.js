@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
-export const ChargerCard = () => (
+export default () => (
   <ProjectCard cardColor="cardGreen">
     <CardTitle>BatCap</CardTitle>
     <CardDescription>

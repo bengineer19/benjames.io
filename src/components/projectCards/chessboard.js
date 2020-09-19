@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
-export const ChessboardCard = () => (
+export default () => (
   <ProjectCard cardColor="cardPurple">
     <CardTitle>IoT Chessboard</CardTitle>
     <CardDescription>Play chess online using a real board</CardDescription>

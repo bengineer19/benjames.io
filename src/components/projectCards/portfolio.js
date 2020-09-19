@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
-export const PortfolioCard = () => (
+export default () => (
   <ProjectCard
     href="https://github.com/bengineer19/benjames.io"
     cardColor="cardGreyMid"

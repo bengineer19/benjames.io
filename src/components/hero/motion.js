@@ -6,7 +6,7 @@ export const heroContainerMotion = {
       staggerChildren: 0.75,
     },
   },
-};
+}
 
 export const heroTitleMotion = {
   hidden: {
@@ -20,7 +20,7 @@ export const heroTitleMotion = {
       duration: 2,
     },
   },
-};
+}
 
 export const heroTextMotion = {
   hidden: {
@@ -31,7 +31,7 @@ export const heroTextMotion = {
     opacity: 1,
     y: 0,
   },
-};
+}
 
 export const heroImageMotion = {
   hidden: {
@@ -46,4 +46,4 @@ export const heroImageMotion = {
       duration: 2,
     },
   },
-};
+}

@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardTag,
   CardAction,
-} from "./projectCard"
+} from "../Card"
 
-export const Vst4freeCard = () => (
+export default () => (
   <ProjectCard href="https://vst4free.com" cardColor="cardRed">
     <CardTitle>VST4FREE</CardTitle>
     <CardDescription>

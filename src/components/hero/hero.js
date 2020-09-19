@@ -11,7 +11,7 @@ import {
   heroImageMotion,
 } from "./motion"
 
-export const getHeroImgQuery = graphql`
+const getHeroImgQuery = graphql`
   query {
     file(relativePath: { eq: "profileImgCompressed.png" }) {
       childImageSharp {
@@ -44,7 +44,7 @@ export default () => {
             world.
           </motion.p>
           <motion.p variants={heroTextMotion}>
-            Sometimes I play jazz piano and produce electronic music.
+            Sometimes I produce music.
           </motion.p>
         </motion.div>
       </FancyIntroText>

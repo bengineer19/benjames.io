@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Vst4freeCard } from "./projectCards/vst4free"
-import { ChargerCard } from "./projectCards/charger"
-import { PodcastCard } from "./projectCards/podcast"
-import { GestureCard } from "./projectCards/gesture"
-import { PortfolioCard } from "./projectCards/portfolio"
-import { ChessboardCard } from "./projectCards/chessboard"
+import Vst4freeCard from "./ProjectCards/Vst4free"
+import ChargerCard from "./ProjectCards/Charger"
+import PodcastCard from "./ProjectCards/Podcast"
+import GestureCard from "./ProjectCards/Gesture"
+import PortfolioCard from "./ProjectCards/Portfolio"
+import ChessboardCard from "./ProjectCards/Chessboard"
 
 const MasonryGrid = styled.div`
   column-count: 2;
@@ -19,7 +19,7 @@ const MasonryGrid = styled.div`
   }
 `
 
-export const Projects = () => {
+export default () => {
   return (
     <MasonryGrid>
       <Vst4freeCard />
