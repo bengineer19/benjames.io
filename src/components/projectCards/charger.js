@@ -22,7 +22,7 @@ export default () => (
       alt="BatCap smart phone charger"
     />
     <CardFooter>
-      <CardTag>Arduino &emsp;|&emsp; Java</CardTag>
+      <CardTag>Arduino &nbsp;&&nbsp; Java</CardTag>
       <CardAction>Read more</CardAction>
     </CardFooter>
   </ProjectCard>

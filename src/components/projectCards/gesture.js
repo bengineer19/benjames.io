@@ -31,7 +31,7 @@ export default () => (
         widthPercent="60"
       />
       <CardFooterLightened>
-        <CardTag>C++ &emsp;|&emsp; Bash</CardTag>
+        <CardTag>C++ &nbsp;&&nbsp; Bash</CardTag>
         <CardAction>Read more</CardAction>
       </CardFooterLightened>
     </ProjectCard>

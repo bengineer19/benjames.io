@@ -20,7 +20,7 @@ export default () => (
       widthPercent="70"
     />
     <CardFooter>
-      <CardTag>Python &emsp;|&emsp; PCB design</CardTag>
+      <CardTag>Mentor PADs &nbsp;&&nbsp; Python</CardTag>
       <CardAction>Read More</CardAction>
     </CardFooter>
   </ProjectCard>

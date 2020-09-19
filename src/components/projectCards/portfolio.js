@@ -22,7 +22,7 @@ export default () => (
     {/* https://carbon.now.sh/ */}
     <CardImg src="TheMetaTheBetter.png" alt="React code for portfolio site" />
     <CardFooter>
-      <CardTag>Gatsby &emsp;|&emsp; Styled Components</CardTag>
+      <CardTag>Gatsby &nbsp;&&nbsp; Styled Components</CardTag>
       <CardAction>View on GitHub ➜</CardAction>
     </CardFooter>
   </ProjectCard>

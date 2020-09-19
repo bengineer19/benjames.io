@@ -18,7 +18,7 @@ export default () => (
     </CardDescription>
     <CardImg src="vst4free_mockup.png" alt="VST4FREE showcase" />
     <CardFooter>
-      <CardTag>Nuxt.js &emsp;|&emsp; GraphQL</CardTag>
+      <CardTag>Nuxt.js &nbsp;&&nbsp; GraphQL</CardTag>
       <CardAction>View Site ➜</CardAction>
     </CardFooter>
   </ProjectCard>
