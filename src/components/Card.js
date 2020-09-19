@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import ProjectImg from "./ProjectImg"
 
-const Card = styled.div`
+export const Card = styled.div`
   background-color: ${props => props.theme.cardColors[props.cardColor]};
   display: inline-block;
   font-family: "Montserrat", sans-serif;

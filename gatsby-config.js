@@ -32,10 +32,18 @@ module.exports = {
       options: {
         fonts: [
           `Montserrat\:100,200,400,500,600,700,800`,
-          `Libre Baskerville\:400i`,
+          `Libre Baskerville\:400i, 400`,
           `Lato\:100`,
         ],
         display: "swap",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
       },
     },
     // `gatsby-plugin-offline`,

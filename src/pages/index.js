@@ -5,6 +5,7 @@ import SEO from "../components/Seo"
 import Projects from "../components/Projects"
 import Hero from "../components/Hero/Hero"
 import SectionTitle from "../components/SectionTitle"
+import BlogPromo from "../components/BlogPromo/BlogPromo"
 
 const Container = styled.div`
   max-width: 1200px;
@@ -19,12 +20,11 @@ export default () => {
       <Container>
         <SectionTitle>Projects</SectionTitle>
         <Projects />
-        <SectionTitle>Blog</SectionTitle>
-        These are just a few of my favourite projects. Check out my blog
+        {/* <SectionTitle>Blog</SectionTitle> */}
+        <BlogPromo />
         <SectionTitle>Work</SectionTitle>
-        <SectionTitle>Skills/About?</SectionTitle>
-        Self taught programmer
-        <SectionTitle>Contact</SectionTitle>
+        <SectionTitle>Say hi</SectionTitle>
+        Don't be a stranger.
       </Container>
     </>
   )
