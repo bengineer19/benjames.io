@@ -1,7 +1,7 @@
 import React from "react"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -11,7 +11,7 @@ import {
 } from "../Card"
 
 export default () => (
-  <ProjectCard
+  <LinkedCard
     href="https://github.com/bengineer19/benjames.io"
     cardColor="cardGreyMid"
   >
@@ -25,5 +25,5 @@ export default () => (
       <CardTag>Gatsby &nbsp;&&nbsp; Styled Components</CardTag>
       <CardAction>View on GitHub ➜</CardAction>
     </CardFooter>
-  </ProjectCard>
+  </LinkedCard>
 )

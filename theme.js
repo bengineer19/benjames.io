@@ -27,6 +27,10 @@ export default {
     cardOrange: "#ffba92",
     cardPurple: "#9ca6d9",
     cardMaroon: "#4d143b",
+    cardHenna: "#b95358",
+    ipccBlue: "#5492cd",
+    octopusPink: "#4d1549",
+    octopusBlue: "#040F27",
     distinguishedDevsPrimary: "#00517c",
   },
 }

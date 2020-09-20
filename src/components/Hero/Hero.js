@@ -16,7 +16,7 @@ const getHeroImgQuery = graphql`
     file(relativePath: { eq: "profileImgCompressed.png" }) {
       childImageSharp {
         fluid(maxHeight: 600) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_noBase64
         }
       }
     }

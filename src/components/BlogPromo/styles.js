@@ -8,6 +8,7 @@ export const NonStyledAnchor = Styled.a`
 
 export const BlogText = Styled.div`
   font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 2em;
   color: white;
   flex-basis: 550px;

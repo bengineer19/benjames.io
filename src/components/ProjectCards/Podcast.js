@@ -1,7 +1,7 @@
 import React from "react"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -11,7 +11,7 @@ import {
 } from "../Card"
 
 export default () => (
-  <ProjectCard
+  <LinkedCard
     href="https://distinguisheddevs.com/"
     cardColor="distinguishedDevsPrimary"
   >
@@ -28,5 +28,5 @@ export default () => (
       <CardTag>On Spotify, iTunes and the rest</CardTag>
       <CardAction>View Site ➜</CardAction>
     </CardFooter>
-  </ProjectCard>
+  </LinkedCard>
 )

@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components"
 import { cardTextDark } from "../../../theme"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -15,7 +15,7 @@ import {
 
 export default () => (
   <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
-    <ProjectCard cardColor="cardGreen">
+    <LinkedCard cardColor="cardGreen">
       <CardTitle>BatCap</CardTitle>
       <CardDescription>
         A smart charger/app that preserves your phone battery by cutting off at
@@ -29,6 +29,6 @@ export default () => (
         <CardTag>Arduino &nbsp;&&nbsp; Java</CardTag>
         <CardAction>Read more</CardAction>
       </CardFooter>
-    </ProjectCard>
+    </LinkedCard>
   </ThemeProvider>
 )

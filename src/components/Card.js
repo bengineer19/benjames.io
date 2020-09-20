@@ -9,9 +9,10 @@ export const Card = styled.div`
   font-family: "Montserrat", sans-serif;
   margin: 0 0 2em;
   width: 100%;
+  /* break-after: column; */
 `
 
-const CardImgWrapper = styled.div`
+export const CardImgWrapper = styled.div`
   max-width: ${props => props.widthPercent || 80}%;
   /* max-width: 80%; */
   transition: transform 0.3s ease !important;
@@ -101,10 +102,10 @@ export const CardAction = styled.div`
   }
 `
 
-export const ProjectCard = ({ children, cardColor, href }) => {
+export const LinkedCard = ({ children, cardColor, href }) => {
   return (
-    <a href={href} target="blank">
-      <Card cardColor={cardColor}>{children}</Card>
-    </a>
+    // <a href={href} target="blank">
+    <Card cardColor={cardColor}>{children}</Card>
+    // </a>
   )
 }

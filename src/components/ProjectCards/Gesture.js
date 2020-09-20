@@ -4,7 +4,7 @@ import styled, { ThemeProvider } from "styled-components"
 import { cardTextDark } from "../../../theme"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -20,7 +20,7 @@ const CardFooterLightened = styled(CardFooter)`
 
 export default () => (
   <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
-    <ProjectCard cardColor="cardOrange">
+    <LinkedCard cardColor="cardOrange">
       <CardTitle>Gesture Control</CardTitle>
       <CardDescription>
         Controlling linux with a swish and flick
@@ -34,6 +34,6 @@ export default () => (
         <CardTag>C++ &nbsp;&&nbsp; Bash</CardTag>
         <CardAction>Read more</CardAction>
       </CardFooterLightened>
-    </ProjectCard>
+    </LinkedCard>
   </ThemeProvider>
 )

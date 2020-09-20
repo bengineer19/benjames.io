@@ -1,7 +1,7 @@
 import React from "react"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -11,7 +11,7 @@ import {
 } from "../Card"
 
 export default () => (
-  <ProjectCard href="https://vst4free.com" cardColor="cardRed">
+  <LinkedCard href="https://vst4free.com" cardColor="cardRed">
     <CardTitle>VST4FREE</CardTitle>
     <CardDescription>
       A website for music producers, with around two million annual users
@@ -21,5 +21,5 @@ export default () => (
       <CardTag>Nuxt.js &nbsp;&&nbsp; GraphQL</CardTag>
       <CardAction>View Site ➜</CardAction>
     </CardFooter>
-  </ProjectCard>
+  </LinkedCard>
 )

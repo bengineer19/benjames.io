@@ -1,7 +1,7 @@
 import React from "react"
 
 import {
-  ProjectCard,
+  LinkedCard,
   CardTitle,
   CardImg,
   CardDescription,
@@ -11,7 +11,7 @@ import {
 } from "../Card"
 
 export default () => (
-  <ProjectCard cardColor="cardPurple">
+  <LinkedCard cardColor="cardPurple">
     <CardTitle>IoT Chessboard</CardTitle>
     <CardDescription>Play chess online using a real board</CardDescription>
     <CardImg
@@ -23,5 +23,5 @@ export default () => (
       <CardTag>Mentor PADs &nbsp;&&nbsp; Python</CardTag>
       <CardAction>Read More</CardAction>
     </CardFooter>
-  </ProjectCard>
+  </LinkedCard>
 )
