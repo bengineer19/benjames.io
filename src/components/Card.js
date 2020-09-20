@@ -9,15 +9,13 @@ export const Card = styled.div`
   font-family: "Montserrat", sans-serif;
   margin: 0 0 2em;
   width: 100%;
-  /* break-after: column; */
+  overflow: hidden;
 `
 
 export const CardImgWrapper = styled.div`
   max-width: ${props => props.widthPercent || 80}%;
-  /* max-width: 80%; */
   transition: transform 0.3s ease !important;
   padding: 10px ${props => (100 - (props.widthPercent || 80)) / 2}%;
-  /* padding: 10px 10%; */
 
   ${Card}:hover & {
     transform: scale(1.05);
@@ -31,6 +29,21 @@ export const CardImg = ({ children, ...props }) => {
     </CardImgWrapper>
   )
 }
+
+const SVGWrapper = styled.div`
+  margin-top: 20px;
+
+  path {
+    stroke: ${props => props.color || "white"};
+    fill: ${props => props.color || "white"};
+  }
+`
+
+export const CardSVGWrapper = ({ children, color, ...props }) => (
+  <CardImgWrapper {...props}>
+    <SVGWrapper color={color}>{children}</SVGWrapper>
+  </CardImgWrapper>
+)
 
 export const CardTitle = styled.div`
   color: ${props => props.theme.cardTextTheme.title};
@@ -58,9 +71,22 @@ export const CardDescription = styled.div`
   text-align: center;
   padding: 10px;
 
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
   ${Card}:hover & {
     transform: translate3D(0, -8px, 0);
+  }
+`
+
+export const CardText = styled.div`
+  color: ${props => props.theme.cardTextTheme.text};
+  font-weight: 200;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px 20px 15px;
+
+  transition: transform 0.3s ease;
+  ${Card}:hover & {
+    transform: translate3D(0, 5px, 0);
   }
 `
 
@@ -104,8 +130,8 @@ export const CardAction = styled.div`
 
 export const LinkedCard = ({ children, cardColor, href }) => {
   return (
-    // <a href={href} target="blank">
-    <Card cardColor={cardColor}>{children}</Card>
-    // </a>
+    <a href={href} target="blank">
+      <Card cardColor={cardColor}>{children}</Card>
+    </a>
   )
 }

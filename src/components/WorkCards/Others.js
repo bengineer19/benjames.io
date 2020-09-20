@@ -1,30 +1,10 @@
 import React from "react"
-import Styled from "styled-components"
 
-import {
-  LinkedCard,
-  CardTitle,
-  CardImgWrapper,
-  CardDescription,
-  CardFooter,
-  CardTag,
-  CardAction,
-} from "../Card"
-import CcSVG from "../../assets/cambridgeconsultants.svg"
-
-const ArmBlackSVG = Styled.div`
-  path{
-    stroke: #white;
-    fill: #white;
-  }
-`
+import { LinkedCard, CardImgWrapper, CardText } from "../Card"
 
 export default () => (
   <LinkedCard cardColor="cardGreyMid">
-    <CardTitle></CardTitle>
     <CardImgWrapper widthPercent="50"></CardImgWrapper>
-    <CardDescription>
-      Other companies - Circling/scrolling/animated logos
-    </CardDescription>
+    <CardText>Other companies - Circling/scrolling/animated logos</CardText>
   </LinkedCard>
 )

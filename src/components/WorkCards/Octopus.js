@@ -1,35 +1,33 @@
 import React from "react"
-import Styled from "styled-components"
+import styled from "styled-components"
 
-import {
-  LinkedCard,
-  CardTitle,
-  CardImgWrapper,
-  CardDescription,
-  CardFooter,
-  CardTag,
-  CardAction,
-} from "../Card"
+import { LinkedCard, CardSVGWrapper, CardText, Card } from "../Card"
+import ProjectImg from "../ProjectImg"
 import OctoSVG from "../../assets/octopusev.svg"
 
-const WhiteSVG = Styled.div`
-  path{
-    stroke: white;
-    fill: white;
+const OctoWrapper = styled.div`
+  max-width: 40%;
+  transition: transform 0.3s ease !important;
+  padding: 10px 30%;
+
+  ${Card}:hover & {
+    transform: rotate(-5deg) scale(1.05);
   }
 `
 
 export default () => (
-  <LinkedCard cardColor="octopusBlue">
-    <CardTitle></CardTitle>
-    <CardImgWrapper widthPercent="50">
-      <WhiteSVG>
-        <OctoSVG />
-      </WhiteSVG>
-    </CardImgWrapper>
-    <CardDescription>
+  <LinkedCard cardColor="octopusBlue" href="https://octopusev.com">
+    {/* // <PictureCard> */}
+    <CardSVGWrapper widthPercent="50" color="white">
+      <OctoSVG />
+    </CardSVGWrapper>
+
+    <OctoWrapper>
+      <ProjectImg src="octopus_crop.webp" />
+    </OctoWrapper>
+    <CardText>
       I created the pricing platform now used for all external and internal
-      websites and quotes, saving days of time every week. Car animation?
-    </CardDescription>
+      websites and quotes, saving days of time every week.
+    </CardText>
   </LinkedCard>
 )

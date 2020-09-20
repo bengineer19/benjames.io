@@ -1,35 +1,37 @@
 import React from "react"
-import Styled from "styled-components"
+import styled, { ThemeProvider } from "styled-components"
 
-import {
-  LinkedCard,
-  CardTitle,
-  CardImgWrapper,
-  CardDescription,
-  CardFooter,
-  CardTag,
-  CardAction,
-} from "../Card"
+import { cardTextDark } from "../../../theme"
+
+import { LinkedCard, CardSVGWrapper, Card, CardText } from "../Card"
+import ProjectImg from "../ProjectImg"
 import ArmSVG from "../../assets/arm.svg"
 
-const ArmBlackSVG = Styled.div`
-  path{
-    stroke: #333E48;
-    fill: #333E48;
+const ChipWrapper = styled.div`
+  max-width: 20%;
+  transition: transform 0.3s ease !important;
+  padding: 10px 40%;
+
+  ${Card}:hover & {
+    transform: rotate(90deg);
   }
 `
 
 export default () => (
-  <LinkedCard cardColor="cardGreen">
-    <CardTitle></CardTitle>
-    <CardImgWrapper widthPercent="50">
-      <ArmBlackSVG>
+  <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
+    <LinkedCard cardColor="cardGreen" href="https://arm.com">
+      <CardSVGWrapper widthPercent="50" color="#333E48">
         <ArmSVG />
-      </ArmBlackSVG>
-    </CardImgWrapper>
-    <CardDescription>
-      Developed technology for automatically provisioning edge compute nodes
-      using Kubernetes
-    </CardDescription>
-  </LinkedCard>
+      </CardSVGWrapper>
+
+      <ChipWrapper>
+        <ProjectImg src="chip.png" />
+      </ChipWrapper>
+
+      <CardText>
+        Developed technology for automatically provisioning edge compute nodes
+        using Kubernetes
+      </CardText>
+    </LinkedCard>
+  </ThemeProvider>
 )
