@@ -27,7 +27,7 @@ export default () => (
     </OctoWrapper>
     <CardText>
       I created the pricing platform now used for all external and internal
-      websites and quotes, saving days of time every week.
+      websites and quotes.
     </CardText>
   </LinkedCard>
 )

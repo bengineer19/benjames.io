@@ -14,14 +14,33 @@ export const BannerCard = styled(Card)`
 `
 
 export const BannerText = styled.div`
+  flex-basis: 550px;
+  flex-grow: ${props => (props.grow ? 1 : 0)};
+  height: 100%;
+  position: relative;
+`
+
+export const BannerIntro = styled.div`
+  flex-basis: ${props => props.width || "200px"};
+  position: relative;
+  overflow: hidden;
+
+  margin-left: 20px;
+
+  transition: all 0.5s ease;
+  ${Card}:hover & {
+    transform: scale(1.05);
+  }
+`
+
+export const BannerLink = styled.a`
+  display: block;
   font-family: "Lato", sans-serif;
   font-weight: ${props => props.fontWeight || 400};
   font-size: ${props => props.fontSize || "2em"};
-  color: ${props => props.color || "white"};
-  flex-basis: 550px;
-  flex-grow: ${props => (props.grow ? 1 : 0)};
-  text-align: center;
+  color: ${props => props.color || "#4d143b"};
 
+  text-align: center;
   margin: 20px;
 
   transition: all 0.5s ease;
@@ -31,21 +50,23 @@ export const BannerText = styled.div`
 `
 
 export const BannerIcon = styled.div`
-  flex-basis: ${props => props.width || "250px"};
-  position: relative;
-  overflow: hidden;
-
-  margin-left: 20px;
+  width: ${props => props.width || "200px"};
+  display: block;
+  margin: auto;
 
   path {
     fill: ${props => props.fill};
     stroke: ${props => props.stroke};
   }
+`
 
-  transition: all 0.5s ease;
-  ${Card}:hover & {
-    transform: scale(1.05);
-  }
+export const BannerTitle = styled.div`
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+  font-weight: ${props => props.fontWeight || 400};
+  font-size: ${props => props.fontSize || "1em"};
+  color: ${props => props.color || "#4d143b"};
 `
 
 export const Banner = ({ children, cardColor, href }) => (

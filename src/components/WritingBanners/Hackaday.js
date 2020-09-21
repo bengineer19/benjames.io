@@ -1,18 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Banner, BannerIcon, BannerText } from "../Banner"
-import { Card } from "../Card"
+import {
+  Banner,
+  BannerIcon,
+  BannerText,
+  BannerTitle,
+  BannerIntro,
+} from "../Banner"
 import HackadaySVG from "../../assets/hackaday.svg"
 
-const BannerLinks = styled(BannerText)`
-  ${Card}:hover & {
-    transform: translate3D(0, 0, 0);
-  }
-`
 const Link = styled.a`
   font-size: 1.5rem;
   display: block;
+  text-align: center;
 
   text-decoration: none;
   color: #4d143b;
@@ -25,11 +26,16 @@ const Link = styled.a`
 
 export default () => (
   <Banner cardColor="cardBlueLight">
-    <BannerIcon width="120px">
-      <HackadaySVG />
-    </BannerIcon>
+    <BannerIntro>
+      <BannerIcon width="120px">
+        <HackadaySVG />
+      </BannerIcon>
+      <BannerTitle>
+        Hackaday <br></br>(>60 posts on contract)
+      </BannerTitle>
+    </BannerIntro>
 
-    <BannerLinks grow>
+    <BannerText grow>
       <Link
         target="_blank"
         href="https://hackaday.com/2019/07/23/the-v-programming-language-vain-or-virtuous/"
@@ -54,7 +60,11 @@ export default () => (
       >
         Does PHP have a future, or are twenty five years enough? ➜
       </Link>
-      All of HaD profile
-    </BannerLinks>
+
+      <br />
+      <Link target="_blank" href="https://hackaday.com/author/benjames050418/">
+        All posts ➜
+      </Link>
+    </BannerText>
   </Banner>
 )
