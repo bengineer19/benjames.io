@@ -7,8 +7,13 @@ export const Email = styled.a`
   color: white;
   font-size: 4em;
   font-weight: 600;
+  word-wrap: break-word;
 
   text-decoration: none;
+
+  @media (max-width: 700px) {
+    font-size: 2em;
+  }
 `
 
 export const ContactText = styled.div`
