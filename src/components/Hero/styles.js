@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 export const Maroon = styled.div`
-  background-color: #4d143b;
+  background-color: #6e1b54;
   margin-bottom: 100px;
 
   display: flex;

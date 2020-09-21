@@ -40,7 +40,7 @@ const icebergAnimation = keyframes`
     -webkit-transform: translateY(0);  
   }
   50% {
-    -webkit-transform: translateY(10px);  
+    -webkit-transform: translateY(12px);  
   }
 `
 
@@ -50,7 +50,7 @@ export const Iceberg = Styled(IcebergSVG)`
   left: 10%;
   width: 25%;
 
-  animation: ${icebergAnimation} 5s cubic-bezier(.38,.19,.69,.87) infinite;
+  animation: ${icebergAnimation} 4s cubic-bezier(.38,.19,.69,.87) infinite;
 `
 
 export const SVGBottomText = Styled.div`

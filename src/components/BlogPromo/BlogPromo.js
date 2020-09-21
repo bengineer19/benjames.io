@@ -16,8 +16,6 @@ export default () => (
         <PostsSVG />
       </Scroll>
     </SVGWrapper>
-    <BannerText fontWeight="300">
-      Check out my blog for more projects ➜
-    </BannerText>
+    <BannerText>Check out my blog for more projects ➜</BannerText>
   </Banner>
 )

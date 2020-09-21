@@ -53,7 +53,7 @@ export const NonStyledAnchor = styled.a`
 `
 
 export const LinkedCard = ({ children, cardColor, href }) => (
-  <NonStyledAnchor href={href} target="blank">
+  <NonStyledAnchor href={href} target="_blank">
     <Card cardColor={cardColor}>{children}</Card>
   </NonStyledAnchor>
 )

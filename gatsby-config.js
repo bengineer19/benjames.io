@@ -34,7 +34,7 @@ module.exports = {
         fonts: [
           `Montserrat\:100,200,400,500,600,700,800`,
           `Libre Baskerville\:400i, 400`,
-          `Lato\:100, 300`,
+          `Lato\:100, 300, 400, 600`,
         ],
         display: "swap",
       },

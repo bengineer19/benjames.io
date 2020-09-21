@@ -8,7 +8,7 @@ export default () => (
     cardColor="cardBlueLight"
     href="https://www.theregister.com/2020/01/27/webassembly_intro/"
   >
-    <BannerIcon width="150px">
+    <BannerIcon width="120px" fill="#ff0000" stroke="#ff0000">
       <TheRegisterSVG />
     </BannerIcon>
     <BannerText color="#4d143b" fontSize="1.5em" grow>

@@ -2,10 +2,11 @@ import React from "react"
 import styled from "styled-components"
 
 import SEO from "../components/Seo"
+import Hero from "../components/Hero/Hero"
 import Projects from "../components/Projects"
 import Work from "../components/Work"
 import Writing from "../components/Writing"
-import Hero from "../components/Hero/Hero"
+import Contact from "../components/Contact/Contact"
 import SectionTitle from "../components/SectionTitle"
 import BlogPromo from "../components/BlogPromo/BlogPromo"
 
@@ -28,7 +29,7 @@ export default () => {
         <SectionTitle>Writing</SectionTitle>
         <Writing />
         <SectionTitle>Say hi</SectionTitle>
-        Don't be a stranger.
+        <Contact />
       </Container>
     </>
   )

@@ -35,16 +35,21 @@ export const BannerIcon = styled.div`
   position: relative;
   overflow: hidden;
 
-  /* fill: white; */
+  margin-left: 20px;
+
+  path {
+    fill: ${props => props.fill};
+    stroke: ${props => props.stroke};
+  }
 
   transition: all 0.5s ease;
   ${Card}:hover & {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 `
 
 export const Banner = ({ children, cardColor, href }) => (
-  <NonStyledAnchor href={href} target="blank">
+  <NonStyledAnchor href={href} target="_blank">
     <BannerCard cardColor={cardColor}>{children}</BannerCard>
   </NonStyledAnchor>
 )
