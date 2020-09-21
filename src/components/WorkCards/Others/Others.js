@@ -1,39 +1,23 @@
 import React from "react"
 
-import { LinkedCard, CardTitle } from "../../Card"
-import { CarouselWrapper, LogosLine, SVGLogoWrapper } from "./styles"
-
-import QualcommSVG from "../../../assets/qualcomm.svg"
-import BoschSVG from "../../../assets/bosch.svg"
-import VintenSVG from "../../../assets/vinten.svg"
-import ArccSVG from "../../../assets/arcc.svg"
-import BuzzflyerSVG from "../../../assets/buzzflyer.svg"
+import { LinkedCard, CardTitle, SpacerLine, CardDescription } from "../../Card"
+import { CarouselWrapper, LogosLine } from "./styles"
+import Logos from "./Logos"
 
 export default () => (
   <LinkedCard cardColor="cardGreyMid">
     <CardTitle>Other Companies</CardTitle>
+    <CardDescription>
+      I love seeing how different tech companies operate, so I've done some
+      shorter placements at other firms too.
+    </CardDescription>
+
+    <SpacerLine>_</SpacerLine>
 
     <CarouselWrapper>
       <LogosLine>
-        <SVGLogoWrapper>
-          <QualcommSVG />
-        </SVGLogoWrapper>
-
-        <SVGLogoWrapper>
-          <ArccSVG />
-        </SVGLogoWrapper>
-
-        <SVGLogoWrapper>
-          <BuzzflyerSVG />
-        </SVGLogoWrapper>
-
-        <SVGLogoWrapper>
-          <VintenSVG />
-        </SVGLogoWrapper>
-
-        <SVGLogoWrapper>
-          <BoschSVG />
-        </SVGLogoWrapper>
+        <Logos />
+        <Logos />
       </LogosLine>
     </CarouselWrapper>
   </LinkedCard>

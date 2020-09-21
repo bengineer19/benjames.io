@@ -1,13 +1,21 @@
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 
 export const CarouselWrapper = styled.div`
-  padding: 15px;
-  /* overflow: hidden; */
+  margin: 20px;
+  overflow: hidden;
+`
+
+const logoScroll = keyframes`
+  100% {
+    -webkit-transform: translateX(-995px);  
+  }
 `
 
 export const LogosLine = styled.div`
   height: 40px;
-  width: 5000px;
+  width: 2000px;
+
+  animation: ${logoScroll} 8s linear infinite;
 `
 
 export const SVGLogoWrapper = styled.div`

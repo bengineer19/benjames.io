@@ -11,8 +11,8 @@ export default () => {
   return (
     <MasonryGrid>
       <OctopusCard />
-      <ArmCard />
       <IpccCard />
+      <ArmCard />
       <CcCard />
       <OthersCard />
     </MasonryGrid>
