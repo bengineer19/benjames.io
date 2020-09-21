@@ -1,5 +1,4 @@
 import React from "react"
-import styled from "styled-components"
 
 import { LinkedCard, CardSVGWrapper, CardText, SpacerLine } from "../Card"
 import CcSVG from "../../assets/cambridgeconsultants.svg"
