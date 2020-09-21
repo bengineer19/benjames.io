@@ -56,5 +56,5 @@ export const Iceberg = Styled(IcebergSVG)`
 export const SVGBottomText = Styled.div`
   position: absolute;
   width: 100%;
-  bottom: 20px;
+  bottom: 10px;
 `

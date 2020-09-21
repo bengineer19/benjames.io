@@ -30,7 +30,7 @@ export const CardImg = ({ children, ...props }) => {
   )
 }
 
-const SVGWrapper = styled.div`
+export const SVGWrapper = styled.div`
   margin-top: 20px;
 
   path {
@@ -82,7 +82,7 @@ export const CardText = styled.div`
   font-weight: 200;
   font-size: 1.5em;
   text-align: center;
-  padding: 5px 20px 15px;
+  padding: 5px 20px 20px;
 
   transition: transform 0.3s ease;
   ${Card}:hover & {

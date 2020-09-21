@@ -23,5 +23,12 @@ export default ({ src, ...props }) => {
     [data, src]
   )
 
-  return <Img fluid={match.childImageSharp.fluid} {...props} />
+  return (
+    <Img
+      fluid={match.childImageSharp.fluid}
+      {...props}
+      imgStyle={{ objectFit: "contain" }}
+      style={{ maxHeight: "100%" }}
+    />
+  )
 }
