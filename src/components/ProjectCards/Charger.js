@@ -15,7 +15,10 @@ import {
 
 export default () => (
   <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
-    <LinkedCard cardColor="cardGreen">
+    <LinkedCard
+      cardColor="cardGreen"
+      href="https://blog.benjames.io/2019/07/07/charging-stand/"
+    >
       <CardTitle>BatCap</CardTitle>
       <CardDescription>
         A smart charger/app that preserves your phone battery by cutting off at

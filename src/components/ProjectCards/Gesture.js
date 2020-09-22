@@ -20,7 +20,10 @@ const CardFooterLightened = styled(CardFooter)`
 
 export default () => (
   <ThemeProvider theme={{ cardTextTheme: cardTextDark }}>
-    <LinkedCard cardColor="cardOrange">
+    <LinkedCard
+      cardColor="cardOrange"
+      href="https://blog.benjames.io/2017/09/17/computer-gesture-control-with-arduino-and-skywriter/"
+    >
       <CardTitle>Gesture Control</CardTitle>
       <CardDescription>
         Controlling linux with a swish and flick

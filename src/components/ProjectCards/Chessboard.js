@@ -11,7 +11,10 @@ import {
 } from "../Card"
 
 export default () => (
-  <LinkedCard cardColor="cardPurple">
+  <LinkedCard
+    cardColor="cardPurple"
+    href="https://blog.benjames.io/iot-chess-board/"
+  >
     <CardTitle>IoT Chessboard</CardTitle>
     <CardDescription>Play chess online using a real board</CardDescription>
     <CardImg
