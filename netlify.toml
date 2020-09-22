@@ -1,3 +1,49 @@
 [[redirects]]
+  from = "/hackaday"
+  to = "https://blog.benjames.io/hackaday"
+
+[[redirects]]
+  from = "/contact"
+  to = "/"
+
+[[redirects]]
+  from = "/iot-chess-board"
+  to = "https://blog.benjames.io/contact"
+
+[[redirects]]
+  from = "/about"
+  to = "/"
+
+
+
+[[redirects]]
+  from = "/page/*"
+  to = "https://blog.benjames.io/page/:splat"
+
+[[redirects]]
   from = "/2020/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2019/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2018/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2017/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2016/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2015/*"
+  to = "https://blog.benjames.io/2020/:splat"
+
+[[redirects]]
+  from = "/2014/*"
   to = "https://blog.benjames.io/2020/:splat"
