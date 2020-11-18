@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ben James`,
-    description: `Personal website and portfolio for Ben James.`,
+    description: `Ben James - technology & sustainability. IPCC, Octopus Energy, Arm, Hackaday, Cambridge Consultants, MEng Engineering at Cambridge.`,
     author: `Ben James`,
     url: "https://benjames.io",
     image: "/images/profileImgCompressed.png",
