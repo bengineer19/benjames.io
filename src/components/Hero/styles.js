@@ -36,7 +36,7 @@ export const FancyIntroText = styled.div`
 
   @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
     h1 {
-      font-size: 4em;
+      font-size: 3.5em;
     }
     p {
       font-size: 1.2em;
