@@ -33,6 +33,15 @@ export const FancyIntroText = styled.div`
     font-size: 1.5em;
     font-weight: 200;
   }
+
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    h1 {
+      font-size: 4em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
 `
 
 export const HeroImg = motion.custom(styled.div`
@@ -44,5 +53,8 @@ export const HeroImg = motion.custom(styled.div`
 
   position: relative;
   padding: 0 5vh;
+
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    margin-top: -80px;
   }
 `)
