@@ -15,7 +15,7 @@ export const FancyIntroText = styled.div`
   color: #a6ddff;
 
   width: 100%;
-  flex-basis: 830px;
+  flex-basis: 850px;
 
   padding-left: 20px;
   padding-right: 15px;
@@ -30,7 +30,7 @@ export const FancyIntroText = styled.div`
     margin-top: 20px;
   }
   p {
-    font-size: 1.5em;
+    font-size: 1.36em;
     font-weight: 200;
   }
 
