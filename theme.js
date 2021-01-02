@@ -25,7 +25,7 @@ export default {
     cardBlue: "#6886C5",
     cardBlue2: "#2D7F9D",
     cardOrange: "#ffba92",
-    cardPurple: "#9ca6d9",
+    cardPurple: "#8c96c9",
     // cardMaroon: "#4d143b",
     cardMaroon: "#6e1b54",
     cardBlueLight: "#a6ddff",
