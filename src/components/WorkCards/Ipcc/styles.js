@@ -19,7 +19,7 @@ const seaAnimation = keyframes`
     transform: translate3D(0, 0, 0) scale(1);
   }
   50% {
-    transform: translate3D(-5%, 2%, 0) scale(1.1, 1);
+    transform: translate3D(-9%, 3%, 0) scale(1.15, 1);
   } 
 `
 
@@ -32,7 +32,7 @@ export const SeaWrapper = Styled.div`
     display: block;
   }
 
-  animation: ${seaAnimation} 8s ease infinite;
+  animation: ${seaAnimation} 7s ease infinite;
 `
 
 const icebergAnimation = keyframes`
@@ -40,7 +40,7 @@ const icebergAnimation = keyframes`
     -webkit-transform: translateY(0);  
   }
   50% {
-    -webkit-transform: translateY(12px);  
+    -webkit-transform: translateY(14px);  
   }
 `
 
