@@ -15,7 +15,7 @@ export default () => (
     <SpacerLine>_</SpacerLine>
 
     <CardText>
-      Worked on 15 projects for different clients, writing full-stack & embedded
+      Worked on 12 projects for different clients, writing full-stack & embedded
       software, and designing electronics.
     </CardText>
   </LinkedCard>
