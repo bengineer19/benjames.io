@@ -15,8 +15,10 @@ export default () => (
     <SpacerLine>_</SpacerLine>
 
     <CardText>
-      Worked on 12 projects for different clients, writing full-stack & embedded
-      software, and designing electronics.
+      Tech consultant on 12 projects for various clients, focusing on energy,
+      robotics & recycling sectors.
+      {/* Worked on 12 projects for different clients, writing full-stack & embedded
+      software, and designing electronics. */}
     </CardText>
   </LinkedCard>
 )

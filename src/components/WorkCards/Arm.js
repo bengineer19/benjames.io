@@ -29,8 +29,10 @@ export default () => (
       </ChipWrapper>
 
       <CardText>
-        Developed technology for automatically provisioning edge compute nodes
-        using Kubernetes
+        Developing new technologies in the Data & AI services team of Arm
+        Research.
+        {/* Developed technology for automatically provisioning edge compute nodes
+        using Kubernetes */}
       </CardText>
     </LinkedCard>
   </ThemeProvider>

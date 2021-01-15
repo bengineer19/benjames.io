@@ -21,11 +21,11 @@ export default () => {
       <SEO />
       <Hero />
       <Container>
+        <SectionTitle>Work</SectionTitle>
+        <Work />
         <SectionTitle>Projects</SectionTitle>
         <Projects />
         <BlogPromo />
-        <SectionTitle>Work</SectionTitle>
-        <Work />
         <SectionTitle>Writing</SectionTitle>
         <Writing />
         <SectionTitle>Say hi</SectionTitle>
