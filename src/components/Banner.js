@@ -47,6 +47,10 @@ export const BannerLink = styled.a`
   ${Card}:hover & {
     transform: translate3D(15px, 0, 0);
   }
+
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    font-size: 1.2rem;
+  }
 `
 
 export const BannerIcon = styled.div`

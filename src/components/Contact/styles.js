@@ -12,7 +12,7 @@ export const Email = styled.a`
   text-decoration: none;
 
   @media (max-width: 700px) {
-    font-size: 2em;
+    font-size: 1.7em;
   }
 `
 

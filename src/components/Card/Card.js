@@ -35,7 +35,11 @@ export const CardTag = styled.div`
 
   transition: all 0.3s ease;
   ${Card}:hover & {
-    transform: translate3D(0, 200%, 0);
+    transform: translate3D(0, 250%, 0);
+  }
+
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    font-size: 0.85em;
   }
 `
 

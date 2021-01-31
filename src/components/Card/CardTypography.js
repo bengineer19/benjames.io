@@ -5,13 +5,17 @@ import { Card } from "./Card"
 export const CardText = styled.div`
   color: ${props => props.theme.cardTextTheme.text};
   font-weight: 200;
-  font-size: 1.5em;
   text-align: center;
   padding: 5px 20px 20px;
 
   transition: transform 0.3s ease;
   ${Card}:hover & {
     transform: translate3D(0, 5px, 0);
+  }
+
+  font-size: 1.5em;
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    font-size: 1.25em;
   }
 `
 
@@ -37,13 +41,17 @@ export const CardTitle = styled.div`
 export const CardDescription = styled.div`
   color: ${props => props.theme.cardTextTheme.text};
   font-weight: 200;
-  font-size: 1.5em;
   text-align: center;
   padding: 10px;
 
   transition: transform 0.3s ease;
   ${Card}:hover & {
     transform: translate3D(0, -8px, 0);
+  }
+
+  font-size: 1.5em;
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    font-size: 1.25em;
   }
 `
 

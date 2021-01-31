@@ -11,16 +11,21 @@ import {
 import HackadaySVG from "../../assets/hackaday.svg"
 
 const Link = styled.a`
-  font-size: 1.5rem;
   display: block;
   text-align: center;
-
   text-decoration: none;
   color: #4d143b;
+
+  padding-bottom: 5px;
 
   transition: all 0.5s ease;
   :hover {
     transform: translate3D(15px, 0, 0);
+  }
+
+  font-size: 1.5rem;
+  @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
+    font-size: 1.2rem;
   }
 `
 
