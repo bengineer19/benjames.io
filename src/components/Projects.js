@@ -1,7 +1,7 @@
 import React from "react"
 
 import { MasonryGrid } from "./Masonry"
-import Vst4freeCard from "./ProjectCards/Vst4free"
+import Plugins4freeCard from "./ProjectCards/Plugins4free"
 import ChargerCard from "./ProjectCards/Charger"
 import PodcastCard from "./ProjectCards/Podcast"
 import GestureCard from "./ProjectCards/Gesture"
@@ -11,7 +11,7 @@ import ChessboardCard from "./ProjectCards/Chessboard"
 export default () => {
   return (
     <MasonryGrid>
-      <Vst4freeCard />
+      <Plugins4freeCard />
       <ChargerCard />
       <ChessboardCard />
       <PodcastCard />
