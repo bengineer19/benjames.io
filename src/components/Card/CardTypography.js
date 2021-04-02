@@ -59,7 +59,7 @@ export const SpacerLine = styled.div`
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
-  color: white;
+  color: ${props => props.lineColor || "white"};
   padding: 0px 20px 20px;
 
   transition: transform 0.3s ease;
