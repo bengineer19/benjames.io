@@ -1,9 +1,9 @@
 import React from "react"
-import styled, { ThemeProvider } from "styled-components"
+import { ThemeProvider } from "styled-components"
 
 import { cardTextDark } from "../../../theme"
 
-import { LinkedCard, CardSVGWrapper, Card, CardText, SpacerLine } from "../Card"
+import { LinkedCard, CardSVGWrapper, CardText, SpacerLine } from "../Card"
 import Twenty48SVG from "../../assets/logo_2048.svg"
 
 export default () => (

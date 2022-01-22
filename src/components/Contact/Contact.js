@@ -18,14 +18,14 @@ export default () => {
       <Email href={`mailto:${email}`}>{email}</Email>
 
       <ProfilesWrapper>
-        <ProfileSVG target="_blank" href="https://github.com/bengineer19">
-          <GitHubSVG />
-        </ProfileSVG>
         <ProfileSVG
           target="_blank"
           href="https://www.linkedin.com/in/bengineer19/"
         >
           <LinkedinSVG />
+        </ProfileSVG>
+        <ProfileSVG target="_blank" href="https://github.com/bengineer19">
+          <GitHubSVG />
         </ProfileSVG>
       </ProfilesWrapper>
 
