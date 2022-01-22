@@ -12,11 +12,11 @@ import ChessboardCard from "./ProjectCards/Chessboard"
 export default () => {
   return (
     <MasonryGrid>
-      <Plugins4freeCard />
-      <ChargerCard />
-      <ChessboardCard />
-      <PodcastCard />
       <CCSCard />
+      <ChargerCard />
+      <PodcastCard />
+      <ChessboardCard />
+      <Plugins4freeCard />
       <PortfolioCard />
       <GestureCard />
     </MasonryGrid>
