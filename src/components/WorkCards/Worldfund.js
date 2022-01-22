@@ -5,7 +5,7 @@ import { LinkedCard, CardSVGWrapper, CardText, Card } from "../Card"
 import WorldfundSVG from "../../assets/worldfund.svg"
 import WorldfundWordSVG from "../../assets/worldfund_word.svg"
 
-export const SVGColorWrapper = styled.div`
+const SVGColorWrapper = styled.div`
   margin-top: 5px;
 `
 

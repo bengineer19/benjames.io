@@ -33,6 +33,7 @@ export default {
     ipccBlue: "#5492cd",
     octopusPink: "#4d1549",
     octopusBlue: "#040F27",
+    ccsTheme: "#1A1153",
     distinguishedDevsPrimary: "#00517c",
   },
 }
