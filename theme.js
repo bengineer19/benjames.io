@@ -30,6 +30,7 @@ export default {
     cardMaroon: "#6e1b54",
     cardBlueLight: "#a6ddff",
     cardHenna: "#b95358",
+    cardBlueVeryLight: "#d7e9fc",
     ipccBlue: "#5492cd",
     octopusPink: "#4d1549",
     octopusBlue: "#040F27",

@@ -7,6 +7,7 @@ import OctopusCard from "./WorkCards/Octopus"
 import ArmCard from "./WorkCards/Arm"
 import CcCard from "./WorkCards/Cc"
 import Twenty48Card from "./WorkCards/Twenty48"
+import InClimateCard from "./WorkCards/InClimate"
 import OthersCard from "./WorkCards/Others/Others"
 
 export default () => {
@@ -14,11 +15,12 @@ export default () => {
     <MasonryGrid>
       <WorldfundCard />
       <IpccCard />
-      <Twenty48Card />
-      <OthersCard />
-      <OctopusCard />
       <CcCard />
+      <Twenty48Card />
+      <OctopusCard />
+      <InClimateCard />
       <ArmCard />
+      <OthersCard />
     </MasonryGrid>
   )
 }

@@ -4,7 +4,7 @@ import { Card } from "./Card"
 
 export const CardText = styled.div`
   color: ${props => props.theme.cardTextTheme.text};
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   padding: 5px 20px 20px;
 

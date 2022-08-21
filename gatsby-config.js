@@ -49,6 +49,7 @@ module.exports = {
           `Montserrat\:100,200,300,400,500,600,700,800`,
           `Libre Baskerville\:400i, 400`,
           `Lato\:100, 300, 400, 600`,
+          `Poppins\: 600`, // For InClimate only
         ],
         display: "swap",
       },

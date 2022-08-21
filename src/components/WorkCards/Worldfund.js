@@ -32,7 +32,7 @@ export default () => (
       </SVGColorWrapper>
     </LogoWrapper>
     <CardText>
-      In summer 2022 I'll be helping to build the biggest climate VC in Europe
+      In autumn 2022 I'll be supporting climate entrepreneurship at World Fund.
     </CardText>
   </LinkedCard>
 )
