@@ -40,7 +40,7 @@ export const CardTitle = styled.div`
 
 export const CardDescription = styled.div`
   color: ${props => props.theme.cardTextTheme.text};
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   padding: 10px;
 

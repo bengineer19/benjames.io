@@ -46,7 +46,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Montserrat\:100,200,400,500,600,700,800`,
+          `Montserrat\:100,200,300,400,500,600,700,800`,
           `Libre Baskerville\:400i, 400`,
           `Lato\:100, 300, 400, 600`,
         ],
