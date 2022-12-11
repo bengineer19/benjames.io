@@ -17,7 +17,7 @@ export default () => (
   >
     <CardTitle>Distinguished Devs</CardTitle>
     <CardDescription>
-      I host a podcast which interviews software engineering leaders
+      I hosted a podcast that interviewed software engineering leaders
     </CardDescription>
     <CardImg
       src="distinguished_devs_logo.png"

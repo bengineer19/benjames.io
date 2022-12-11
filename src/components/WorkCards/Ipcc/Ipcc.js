@@ -18,7 +18,9 @@ export default () => (
       </SeaWrapper>
 
       <SVGBottomText>
-        <CardText>Working on the sixth assessment report (AR6)</CardText>
+        <CardText>
+          I worked on Chapter 1 of the IPCC's sixth assessment report (AR6).
+        </CardText>
       </SVGBottomText>
     </SVGWrapper>
   </LinkedCard>

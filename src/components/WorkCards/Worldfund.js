@@ -31,6 +31,9 @@ export default () => (
         <WorldfundSVG />
       </SVGColorWrapper>
     </LogoWrapper>
-    <CardText>Investing in Europe's most promising climate startups.</CardText>
+    <CardText>
+      I searched for the most exciting climate startups at Europe's leading
+      climate VC.
+    </CardText>
   </LinkedCard>
 )
