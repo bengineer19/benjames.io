@@ -16,7 +16,7 @@ export default () => (
     href="https://www.theregister.com/2020/01/27/webassembly_intro/"
   >
     <BannerIntro>
-      <BannerIcon width="100px" fill="#ff0000" stroke="#ff0000">
+      <BannerIcon width="75px" fill="#ff0000" stroke="#ff0000">
         <TheRegisterSVG />
       </BannerIcon>
       <BannerTitle>The Register</BannerTitle>

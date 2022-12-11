@@ -8,23 +8,22 @@ import {
   BannerTitle,
   BannerIntro,
 } from "../Banner"
-import StackOverflowSVG from "../../assets/stackoverflow.svg"
+import StackOverflowSVG from "../../assets/wired.svg"
 
 export default () => (
   <Banner
     cardColor="cardBlueLight"
-    href="https://stackoverflow.blog/2020/05/14/the-most-successful-developers-share-more-than-they-take/"
+    href="https://www.wired.co.uk/article/perennial-carbon-capture-satellite"
   >
     <BannerIntro>
-      <BannerIcon width="70px">
+      <BannerIcon width="125px" style={{ paddingTop: "8px" }}>
         <StackOverflowSVG />
       </BannerIcon>
-      <BannerTitle>The StackOverflow Blog</BannerTitle>
     </BannerIntro>
 
     <BannerText grow>
       <BannerLink fontSize="1.5em">
-        The most successful developers share more than they take ➜
+        Sustainable Farming Has an Unlikely Ally: Satellites ➜
       </BannerLink>
     </BannerText>
   </Banner>
