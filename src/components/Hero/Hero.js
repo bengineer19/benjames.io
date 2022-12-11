@@ -13,7 +13,7 @@ import {
 
 const getHeroImgQuery = graphql`
   query {
-    file(relativePath: { eq: "profileImgCompressed.png" }) {
+    file(relativePath: { eq: "Headshot cutout Ben James.png" }) {
       childImageSharp {
         fluid(maxHeight: 600) {
           ...GatsbyImageSharpFluid_noBase64
@@ -38,15 +38,16 @@ export default () => {
           <motion.p variants={heroTextMotion}>
             {/* Technology is my thing. When I'm not building it, I'm writing or
             talking about it. */}
-            I'm fascinated with how climate change is going to reshape our world
+            A few years ago, I dedicated my career to decarbonisation.
           </motion.p>
           <motion.p variants={heroTextMotion}>
-            I build and write about technology
+            Previously I was an enthusiastic writer and reluctant engineer.
             {/* I'm fascinated with how climate change is going to reshape our
             world. */}
           </motion.p>
           <motion.p variants={heroTextMotion}>
-            Sometimes I produce music
+            I also like pranks, and composing musical theatre.
+            {/* Sometimes I produce music */}
           </motion.p>
         </motion.div>
       </FancyIntroText>
