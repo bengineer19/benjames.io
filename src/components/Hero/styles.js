@@ -2,7 +2,8 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 export const Maroon = styled.div`
-  background-color: #752b5e;
+  /* background-color: #752b5e; */
+  background-color: #eeeeee;
   margin-bottom: 100px;
 
   display: flex;
@@ -12,7 +13,8 @@ export const Maroon = styled.div`
 `
 
 export const FancyIntroText = styled.div`
-  color: #a6ddff;
+  color: #333333;
+  /* color: #a6ddff; */
 
   width: 100%;
   flex-basis: 850px;
@@ -32,7 +34,7 @@ export const FancyIntroText = styled.div`
   }
   p {
     font-size: 1.36em;
-    font-weight: 200;
+    font-weight: 400;
   }
 
   @media (max-width: ${props => props.theme.projectGridBreakpoint}) {
