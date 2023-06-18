@@ -20,7 +20,7 @@ export default () => {
       <ProfilesWrapper>
         <ProfileSVG
           target="_blank"
-          href="https://www.linkedin.com/in/bengineer19/"
+          href="https://www.linkedin.com/in/ben-james-climate"
         >
           <LinkedinSVG />
         </ProfileSVG>

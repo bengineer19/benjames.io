@@ -36,18 +36,13 @@ export default () => {
         >
           <motion.h1 variants={heroTitleMotion}>Hi, I'm Ben</motion.h1>
           <motion.p variants={heroTextMotion}>
-            {/* Technology is my thing. When I'm not building it, I'm writing or
-            talking about it. */}
             A few years ago, I dedicated my career to decarbonisation.
           </motion.p>
           <motion.p variants={heroTextMotion}>
-            Previously I was an enthusiastic writer and reluctant engineer.
-            {/* I'm fascinated with how climate change is going to reshape our
-            world. */}
+            Previously I was an enthusiastic technologist and occasional writer.
           </motion.p>
           <motion.p variants={heroTextMotion}>
             I also like pranks, and composing musical theatre.
-            {/* Sometimes I produce music */}
           </motion.p>
         </motion.div>
       </FancyIntroText>
