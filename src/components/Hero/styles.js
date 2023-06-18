@@ -24,9 +24,10 @@ export const FancyIntroText = styled.div`
 
   h1 {
     font-size: 6em;
-    /* font-weight: 500; */
-    font-style: italic;
-    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    /* font-style: italic; */
+    /* font-family: "Libre Baskerville", serif; */
+    font-family: "Playfair Display", serif;
     margin-top: 20px;
   }
   p {
