@@ -8,6 +8,7 @@ export const Card = styled.div`
   margin: 0 0 2em;
   width: 100%;
   overflow: hidden;
+  /* box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.3); */
 `
 
 export const CardFooter = styled.div`

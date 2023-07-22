@@ -1,22 +1,16 @@
 import React from "react"
 
 import Wired from "./WritingBanners/Wired"
-import StackOverflow from "./WritingBanners/StackOverflow"
-import TheRegister from "./WritingBanners/TheRegister"
-import Hackaday from "./WritingBanners/Hackaday"
+import WorldFundWriting from "./WritingBanners/WorldFundWriting"
+import ClimateBlogPromo from "../components/ClimateBlogPromo/ClimateBlogPromo"
+
+import Tech from "./WritingBanners/Tech"
 
 export default () => (
   <>
+    <ClimateBlogPromo />
     <Wired />
-    <StackOverflow />
-    <TheRegister />
-    <Hackaday />
+    <WorldFundWriting />
+    <Tech />
   </>
-  //   {/*
-  //   Writing:
-  //   - Stack Overflow Article
-  //   - The Register
-  //   - Hackaday (articles or whole link?)
-  // */}
-  // <StackOverflowCard />
 )

@@ -4,7 +4,7 @@ export const Email = styled.a`
   display: block;
   font-family: "Lato", sans-serif;
   margin: 50px;
-  color: white;
+  color: #333333;
   font-size: 4em;
   font-weight: 600;
   word-wrap: break-word;
@@ -19,9 +19,9 @@ export const Email = styled.a`
 export const ContactText = styled.div`
   font-family: "Lato", sans-serif;
   margin: 0 50px 30px;
-  color: white;
+  color: #333333;
   font-size: 1.3em;
-  font-weight: 300;
+  font-weight: 400;
 `
 
 export const ProfilesWrapper = styled.div`
@@ -41,7 +41,7 @@ export const ProfileSVG = styled.a`
   }
 
   path {
-    fill: white;
-    stroke: white;
+    fill: #333333;
+    stroke: #333333;
   }
 `

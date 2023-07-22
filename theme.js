@@ -13,12 +13,16 @@ export default {
   projectGridBreakpoint: "800px",
   primary: "#333",
   cardTextTheme: cardTextLight,
+  themeColors: {
+    greyDeep: "#333333",
+    greyLight: "#EEEEEE",
+  },
   cardColors: {
     cardGreen: "#82C4C3",
     cardRed: "#D45079",
     cardPink: "#FFB6B6",
-    cardGreyLight: "#e8e8e8",
     cardGrey: "#717d84",
+    cardGreyLight: "#EEEEEE",
     cardGreyMid: "#4d4d4d",
     cardGreyDeep: "#292929",
     cardBeige: "#eee6d5",

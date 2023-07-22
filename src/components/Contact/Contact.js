@@ -14,7 +14,7 @@ export default () => {
   }, [])
 
   return (
-    <Card cardColor="cardMaroon">
+    <Card cardColor="cardGreyLight">
       <Email href={`mailto:${email}`}>{email}</Email>
 
       <ProfilesWrapper>

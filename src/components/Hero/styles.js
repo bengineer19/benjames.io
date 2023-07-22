@@ -1,9 +1,8 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
 
-export const Maroon = styled.div`
-  /* background-color: #752b5e; */
-  background-color: #eeeeee;
+export const HeroBG = styled.div`
+  background-color: ${props => props.theme.themeColors.greyLight};
   margin-bottom: 100px;
 
   display: flex;
@@ -13,8 +12,7 @@ export const Maroon = styled.div`
 `
 
 export const FancyIntroText = styled.div`
-  color: #333333;
-  /* color: #a6ddff; */
+  color: ${props => props.theme.themeColors.greyDeep};
 
   width: 100%;
   flex-basis: 850px;

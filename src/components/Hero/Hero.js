@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { motion } from "framer-motion"
 
-import { Maroon, FancyIntroText, HeroImg } from "./styles"
+import { HeroBG, FancyIntroText, HeroImg } from "./styles"
 import {
   heroTextMotion,
   heroTitleMotion,
@@ -27,7 +27,7 @@ export default () => {
   const data = useStaticQuery(getHeroImgQuery)
 
   return (
-    <Maroon>
+    <HeroBG>
       <FancyIntroText>
         <motion.div
           variants={heroContainerMotion}
@@ -55,6 +55,6 @@ export default () => {
       >
         <Img fluid={data.file.childImageSharp.fluid} />
       </HeroImg>
-    </Maroon>
+    </HeroBG>
   )
 }

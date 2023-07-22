@@ -8,7 +8,7 @@ import CCSCard from "./ProjectCards/CCS"
 import UKHeatingCard from "./ProjectCards/UKHeating"
 import GestureCard from "./ProjectCards/Gesture"
 import PortfolioCard from "./ProjectCards/Portfolio"
-import ChessboardCard from "./ProjectCards/Chessboard"
+import TechBlogLink from "./ProjectCards/TechBlogLink"
 
 export default () => {
   return (
@@ -16,10 +16,10 @@ export default () => {
       <CCSCard />
       <UKHeatingCard />
       <ChargerCard />
-      <PodcastCard />
+      {/* <PodcastCard /> */}
+      <TechBlogLink />
       <Plugins4freeCard />
       <PortfolioCard />
-      <ChessboardCard />
       <GestureCard />
     </MasonryGrid>
   )
