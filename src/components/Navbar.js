@@ -13,11 +13,12 @@ const Navbar = styled.nav`
 
   ul {
     margin: 0px;
-    padding: 15px;
+    padding: 0px;
   }
 
   li {
     display: inline-block;
+    margin: 16px;
   }
 
   .navlink {
@@ -26,7 +27,7 @@ const Navbar = styled.nav`
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
 
   #pulsing-button {
