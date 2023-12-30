@@ -15,8 +15,7 @@ export default () => (
     <SpacerLine>_</SpacerLine>
 
     <CardText>
-      Tech consultant on 12 projects for various clients, focusing on energy,
-      robotics & recycling sectors.
+      Made cool PCBs for boring companies.
       {/* Worked on 12 projects for different clients, writing full-stack & embedded
       software, and designing electronics. */}
     </CardText>
