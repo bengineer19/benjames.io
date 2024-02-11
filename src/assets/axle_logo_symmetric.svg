@@ -1,0 +1,25 @@
+<svg viewBox="0 0 373 373" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_105_15)">
+        <mask id="mask0_105_15" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="373" height="373">
+            <circle cx="186.5" cy="186.5" r="186.5" fill="#D9D9D9"/>
+        </mask>
+        <g id="spoke-1" mask="url(#mask0_105_15)">
+            <rect x="88.6104" y="17" width="144.055" height="95.6154" transform="rotate(45 88.6104 17)" fill="#E83D30"/>
+        </g>
+        <g id="spoke-2" mask="url(#mask0_105_15)">
+            <rect width="144.055" height="95.6154" transform="matrix(-0.707107 0.707107 0.707107 0.707107 122.862 186.882)" fill="#E83D30"/>
+        </g>
+        <g id="spoke-3" mask="url(#mask0_105_15)">
+            <rect width="144.055" height="95.6154" transform="matrix(-0.707107 0.707107 0.707107 0.707107 292.266 17)" fill="#E83D30"/>
+        </g>
+        <g id="spoke-4" mask="url(#mask0_105_15)">
+            <rect x="258.013" y="186.882" width="144.055" height="95.6154" transform="rotate(45 258.013 186.882)" fill="#E83D30"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_105_15">
+            <rect width="373" height="373" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>

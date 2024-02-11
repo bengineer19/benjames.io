@@ -64,6 +64,7 @@ module.exports = {
           `Libre Baskerville\:400i, 400`,
           `Lato\:100, 300, 400, 600`,
           `Poppins\: 600`, // For InClimate only
+          `Space Grotesk\: 400`, // For Axle only
         ],
         display: "swap",
       },
