@@ -28,12 +28,7 @@ export default () => (
         <ProjectImg src="chip.png" />
       </ChipWrapper>
 
-      <CardText>
-        Developing new technologies in the Data & AI services team of Arm
-        Research.
-        {/* Developed technology for automatically provisioning edge compute nodes
-        using Kubernetes */}
-      </CardText>
+      <CardText>Data and AI engineering at Arm Research.</CardText>
     </LinkedCard>
   </ThemeProvider>
 )

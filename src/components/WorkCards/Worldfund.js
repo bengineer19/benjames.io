@@ -32,8 +32,7 @@ export default () => (
       </SVGColorWrapper>
     </LogoWrapper>
     <CardText>
-      I searched for the most exciting climate startups at one of Europe's
-      leading climate VCs.
+      Searched for the most ambitious climate startups in Europe.
     </CardText>
   </LinkedCard>
 )

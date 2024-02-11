@@ -34,7 +34,7 @@ export default () => (
   <LinkedCard cardColor="ccsTheme" href="https://cambridgeclimatesociety.com/">
     <CardTitle>Cambridge Climate Society</CardTitle>
     <CardDescription>
-      I founded and grew the Cambridge Unviersity Climate Society to over 1000
+      I founded Cambridge Unviersity's Climate Society & grew it to {">"}1k
       members.
     </CardDescription>
 

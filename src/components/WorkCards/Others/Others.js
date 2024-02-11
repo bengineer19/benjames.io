@@ -7,10 +7,7 @@ import Logos from "./Logos"
 export default () => (
   <LinkedCard cardColor="cardGreyMid">
     <CardTitle>Other Companies</CardTitle>
-    <CardDescription>
-      I love seeing how different tech companies operate, so I've also visited
-      several firms for two-week placements
-    </CardDescription>
+    {/* <CardDescription>I used to do a lot of soldering</CardDescription> */}
 
     <SpacerLine>_</SpacerLine>
 

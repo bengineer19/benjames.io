@@ -25,9 +25,6 @@ export default () => (
     <OctoWrapper>
       <ProjectImg src="octopus_crop.webp" />
     </OctoWrapper>
-    <CardText>
-      I created the pricing platform now used for all external and internal
-      websites and quotes.
-    </CardText>
+    <CardText>Created OEV's inventory & pricing platform.</CardText>
   </LinkedCard>
 )
