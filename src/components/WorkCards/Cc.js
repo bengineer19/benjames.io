@@ -15,9 +15,8 @@ export default () => (
     <SpacerLine>_</SpacerLine>
 
     <CardText>
-      Electronic engineering basic training.
-      {/* Worked on 12 projects for different clients, writing full-stack & embedded
-      software, and designing electronics. */}
+      Made cool PCBs for boring companies.
+      {/* Electronic engineering basic training */}
     </CardText>
   </LinkedCard>
 )
